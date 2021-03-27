@@ -1,0 +1,9 @@
+[package]
+name = "emoji"
+version = "0.0.0"
+authors = ["unbyte <i@shangyes.net>"]
+edition = "2018"
+
+[dependencies]
+phf = { version = "0.7.24", features = ["macros"] }
+regex = "1"
